@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<ControlBoard name="Multi-Game Control Board" gameId="12603"
+		shareCode="q5fiyeoc">
+		<state name="default" />
+		<state name="MOBA Game">
+			<NormalControlGroup name="Abilities">
+				<TactileInputControl name="Ability 1" id="80" />
+				<TactileInputControl name="Ability 2" id="81" />
+				<TactileInputControl name="Ability 3" id="82" />
+				<TactileInputControl name="Ability 4" id="90" />
+				<TactileInputControl name="Ability 5" id="91" />
+				<TactileInputControl name="Ultimate" id="83" />
+				<TactileInputControl name="Back" id="7" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Items">
+				<TactileInputControl name="Item 1" id="84" />
+				<TactileInputControl name="Item 2" id="85" />
+				<TactileInputControl name="Item 3" id="86" />
+				<TactileInputControl name="Item 4" id="87" />
+				<TactileInputControl name="Item 5" id="88" />
+				<TactileInputControl name="Item 6" id="89" />
+				<TactileInputControl name="Item 7" id="92" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Camera">
+				<TactileInputControl name="Up" id="40" />
+				<TactileInputControl name="Down" id="41" />
+				<TactileInputControl name="Left" id="42" />
+				<TactileInputControl name="Right" id="43" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Hold Buttons">
+				<TactileInputControl name="HI 1" id="62" />
+				<TactileInputControl name="HI 2" id="63" />
+				<TactileInputControl name="HI 3" id="64" />
+				<TactileInputControl name="HI 4" id="65" />
+				<TactileInputControl name="HI 5" id="66" />
+				<TactileInputControl name="HI 6" id="67" />
+				<TactileInputControl name="HI 7" id="0" />
+				<TactileInputControl name="HI 8" id="1" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Tap Buttons">
+				<TactileInputControl name="TI 1" id="68" />
+				<TactileInputControl name="TI 2" id="69" />
+				<TactileInputControl name="TI 3" id="70" />
+				<TactileInputControl name="TI 4" id="71" />
+				<TactileInputControl name="TI 5" id="72" />
+				<TactileInputControl name="TI 6" id="73" />
+				<TactileInputControl name="TI 7" id="2" />
+				<TactileInputControl name="TI 8" id="3" />
+			</NormalControlGroup>
+			<NormalControlGroup name="XY Buttons">
+				<TactilePointControl name="XY 1" id="74" />
+				<TactilePointControl name="XY 2" id="75" />
+				<TactilePointControl name="XY 3" id="76" />
+				<TactilePointControl name="XY 4" id="77" />
+				<TactilePointControl name="XY 5" id="78" />
+				<TactilePointControl name="XY 6" id="79" />
+				<TactilePointControl name="XY 7" id="4" />
+				<TactilePointControl name="XY 8" id="5" />
+			</NormalControlGroup>
+		</state>
+		<state name="FPS Game">
+			<NormalControlGroup name="Movement">
+				<TactileInputControl name="Move Forward" id="50" />
+				<TactileInputControl name="Strafe Left" id="52" />
+				<TactileInputControl name="Move Backward" id="51" />
+				<TactileInputControl name="Strafe Right" id="53" />
+				<JoystickControl name="Move Camera" id="26" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Actions">
+				<TactileInputControl name="Shoot" id="55" />
+				<TactileInputControl name="Alt-Fire" id="56" />
+				<TactileInputControl name="Crouch" id="59" />
+				<TactileInputControl name="Reload" id="57" />
+				<TactileInputControl name="Melee" id="58" />
+				<TactileInputControl name="Next Weapon" id="54" />
+				<TactileInputControl name="Previous Weapon" id="61" />
+				<TactileInputControl name="Jump" id="60" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Hold Buttons">
+				<TactileInputControl name="HI 1" id="62" />
+				<TactileInputControl name="HI 2" id="63" />
+				<TactileInputControl name="HI 3" id="64" />
+				<TactileInputControl name="HI 4" id="65" />
+				<TactileInputControl name="HI 5" id="66" />
+				<TactileInputControl name="HI 6" id="67" />
+				<TactileInputControl name="HI 7" id="0" />
+				<TactileInputControl name="HI 8" id="1" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Tap Buttons">
+				<TactileInputControl name="TI 1" id="68" />
+				<TactileInputControl name="TI 2" id="69" />
+				<TactileInputControl name="TI 3" id="70" />
+				<TactileInputControl name="TI 4" id="71" />
+				<TactileInputControl name="TI 5" id="72" />
+				<TactileInputControl name="TI 6" id="73" />
+				<TactileInputControl name="TI 7" id="2" />
+				<TactileInputControl name="TI 8" id="3" />
+			</NormalControlGroup>
+			<NormalControlGroup name="XY Buttons">
+				<TactilePointControl name="XY 1" id="74" />
+				<TactilePointControl name="XY 2" id="75" />
+				<TactilePointControl name="XY 3" id="76" />
+				<TactilePointControl name="XY 4" id="77" />
+				<TactilePointControl name="XY 5" id="78" />
+				<TactilePointControl name="XY 6" id="79" />
+				<TactilePointControl name="XY 7" id="4" />
+				<TactilePointControl name="XY 8" id="5" />
+			</NormalControlGroup>
+		</state>
+		<state name="Telltale Games">
+			<VoteControlGroup name="Options">
+				<VotePointControl name="Option 1" id="8" />
+				<VotePointControl name="Option 2" id="9" />
+				<VotePointControl name="Option 3" id="10" />
+				<VotePointControl name="Option 4" id="11" />
+			</VoteControlGroup>
+		</state>
+		<state name="NES Controllers">
+			<NormalControlGroup name="Player 1">
+				<TactileInputControl name="Up" id="40" />
+				<TactileInputControl name="Down" id="41" />
+				<TactileInputControl name="Left" id="42" />
+				<TactileInputControl name="Right" id="43" />
+				<TactileInputControl name="A" id="14" />
+				<TactileInputControl name="B" id="15" />
+				<TactileInputControl name="Start" id="12" />
+				<TactileInputControl name="Select" id="13" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Player 2">
+				<TactileInputControl name="Up" id="50" />
+				<TactileInputControl name="Down" id="51" />
+				<TactileInputControl name="Left" id="52" />
+				<TactileInputControl name="Right" id="53" />
+				<TactileInputControl name="A" id="18" />
+				<TactileInputControl name="B" id="19" />
+				<TactileInputControl name="Start" id="16" />
+				<TactileInputControl name="Select" id="17" />
+			</NormalControlGroup>
+		</state>
+		<state name="SNES Controllers">
+			<NormalControlGroup name="Player 1">
+				<TactileInputControl name="Up" id="40" />
+				<TactileInputControl name="Down" id="41" />
+				<TactileInputControl name="Left" id="42" />
+				<TactileInputControl name="Right" id="43" />
+				<TactileInputControl name="A" id="14" />
+				<TactileInputControl name="B" id="15" />
+				<TactileInputControl name="X" id="20" />
+				<TactileInputControl name="Y" id="21" />
+				<TactileInputControl name="L" id="24" />
+				<TactileInputControl name="R" id="25" />
+				<TactileInputControl name="Start" id="12" />
+				<TactileInputControl name="Select" id="13" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Player 2">
+				<TactileInputControl name="Up" id="50" />
+				<TactileInputControl name="Down" id="51" />
+				<TactileInputControl name="Left" id="52" />
+				<TactileInputControl name="Right" id="53" />
+				<TactileInputControl name="A" id="18" />
+				<TactileInputControl name="B" id="19" />
+				<TactileInputControl name="X" id="22" />
+				<TactileInputControl name="Y" id="23" />
+				<TactileInputControl name="L" id="27" />
+				<TactileInputControl name="R" id="28" />
+				<TactileInputControl name="Start" id="16" />
+				<TactileInputControl name="Select" id="17" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Keyboard and Mouse" gameId="15331"
+		shareCode="vml6oqkh">
+		<state name="Keyboard and Mouse">
+			<NormalControlGroup name="Letters">
+				<TactileStaticControl name="Q" id="15" key="81" />
+				<TactileStaticControl name="W" id="16" key="87" />
+				<TactileStaticControl name="E" id="17" key="69" />
+				<TactileStaticControl name="R" id="18" key="82" />
+				<TactileStaticControl name="T" id="19" key="84" />
+				<TactileStaticControl name="Y" id="20" key="89" />
+				<TactileStaticControl name="U" id="21" key="85" />
+				<TactileStaticControl name="I" id="22" key="73" />
+				<TactileStaticControl name="O" id="23" key="79" />
+				<TactileStaticControl name="P" id="24" key="80" />
+				<TactileStaticControl name="A" id="28" key="65" />
+				<TactileStaticControl name="S" id="29" key="83" />
+				<TactileStaticControl name="D" id="30" key="68" />
+				<TactileStaticControl name="F" id="31" key="70" />
+				<TactileStaticControl name="G" id="32" key="71" />
+				<TactileStaticControl name="H" id="33" key="72" />
+				<TactileStaticControl name="J" id="34" key="74" />
+				<TactileStaticControl name="K" id="35" key="75" />
+				<TactileStaticControl name="L" id="36" key="76" />
+				<TactileStaticControl name="Z" id="41" key="90" />
+				<TactileStaticControl name="X" id="42" key="88" />
+				<TactileStaticControl name="C" id="43" key="67" />
+				<TactileStaticControl name="V" id="44" key="86" />
+				<TactileStaticControl name="B" id="45" key="66" />
+				<TactileStaticControl name="N" id="46" key="78" />
+				<TactileStaticControl name="M" id="47" key="77" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Numbers">
+				<TactileStaticControl name="1" id="2" key="49" />
+				<TactileStaticControl name="2" id="3" key="50" />
+				<TactileStaticControl name="3" id="4" key="51" />
+				<TactileStaticControl name="4" id="5" key="52" />
+				<TactileStaticControl name="5" id="6" key="53" />
+				<TactileStaticControl name="6" id="7" key="54" />
+				<TactileStaticControl name="7" id="8" key="55" />
+				<TactileStaticControl name="8" id="9" key="56" />
+				<TactileStaticControl name="9" id="10" key="57" />
+				<TactileStaticControl name="0" id="11" key="48" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Symbols">
+				<TactileStaticControl name="`" id="1" key="192" />
+				<TactileStaticControl name="-" id="12" key="45" />
+				<TactileStaticControl name="=" id="13" key="61" />
+				<TactileStaticControl name="[" id="25" key="91" />
+				<TactileStaticControl name="]" id="26" key="93" />
+				<TactileStaticControl name=";" id="37" key="59" />
+				<TactileStaticControl name="'" id="38" key="222" />
+				<TactileStaticControl name="," id="48" key="44" />
+				<TactileStaticControl name="." id="49" key="46" />
+				<TactileStaticControl name="/" id="50" key="47" />
+				<TactileStaticControl name="\" id="51" key="92" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Other">
+				<TactileStaticControl name="TAB" id="14" key="9" />
+				<TactileStaticControl name="SHIFT" id="27" key="16" />
+				<TactileStaticControl name="ALT" id="39" key="18" />
+				<TactileStaticControl name="CTRL" id="40" key="17" />
+				<TactileStaticControl name="SPACE" id="52" key="32" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Mouse">
+				<TactileStaticControl name="Left Click" id="53"
+					key="1024" />
+				<TactileStaticControl name="Mouse Wheel" id="54"
+					key="2048" />
+				<TactileStaticControl name="Right Click" id="55"
+					key="4096" />
+				<JoystickControl name="Mouse" id="0" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Xbox Controllers" gameId="15238"
+		shareCode="6kl8ptdh">
+		<state name="Xbox Controllers">
+			<NormalControlGroup name="Player 1">
+				<TactileInputControl name="Left Stick - Up" id="4" />
+				<TactileInputControl name="Left Stick - Down"
+					id="6" />
+				<TactileInputControl name="Left Stick - Left"
+					id="1" />
+				<TactileInputControl name="Left Stick - Right"
+					id="9" />
+				<TactileInputControl name="Left Stick - Click"
+					id="5" />
+				<TactileInputControl name="Left Bumper" id="8" />
+				<TactileInputControl name="Left Trigger" id="0" />
+				<TactileInputControl name="DPad - Up" id="15" />
+				<TactileInputControl name="DPad - Down" id="11" />
+				<TactileInputControl name="DPad - Left" id="7" />
+				<TactileInputControl name="DPad - Right" id="19" />
+				<TactileInputControl name="Right Stick - Up" id="16" />
+				<TactileInputControl name="Right Stick - Down"
+					id="18" />
+				<TactileInputControl name="Right Stick - Left"
+					id="13" />
+				<TactileInputControl name="Right Stick - Right"
+					id="21" />
+				<TactileInputControl name="Right Stick - Click"
+					id="17" />
+				<TactileInputControl name="Right Bumper" id="12" />
+				<TactileInputControl name="Right Trigger" id="20" />
+				<TactileInputControl name="A" id="2" />
+				<TactileInputControl name="B" id="10" />
+				<TactileInputControl name="X" id="14" />
+				<TactileInputControl name="Y" id="22" />
+				<TactileInputControl name="Back" id="3" />
+				<TactileInputControl name="Start" id="23" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Player 2">
+				<TactileInputControl name="Left Stick - Up" id="28" />
+				<TactileInputControl name="Left Stick - Down"
+					id="30" />
+				<TactileInputControl name="Left Stick - Left"
+					id="25" />
+				<TactileInputControl name="Left Stick - Right"
+					id="33" />
+				<TactileInputControl name="Left Stick - Click"
+					id="29" />
+				<TactileInputControl name="Left Bumper" id="32" />
+				<TactileInputControl name="Left Trigger" id="24" />
+				<TactileInputControl name="DPad - Up" id="39" />
+				<TactileInputControl name="DPad - Down" id="35" />
+				<TactileInputControl name="DPad - Left" id="31" />
+				<TactileInputControl name="DPad - Right" id="43" />
+				<TactileInputControl name="Right Stick - Up" id="40" />
+				<TactileInputControl name="Right Stick - Down"
+					id="42" />
+				<TactileInputControl name="Right Stick - Left"
+					id="37" />
+				<TactileInputControl name="Right Stick - Right"
+					id="45" />
+				<TactileInputControl name="Right Stick - Click"
+					id="41" />
+				<TactileInputControl name="Right Bumper" id="36" />
+				<TactileInputControl name="Right Trigger" id="44" />
+				<TactileInputControl name="A" id="26" />
+				<TactileInputControl name="B" id="34" />
+				<TactileInputControl name="X" id="38" />
+				<TactileInputControl name="Y" id="46" />
+				<TactileInputControl name="Back" id="27" />
+				<TactileInputControl name="Start" id="47" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Overwatch Control Board" gameId="11269"
+		shareCode="5j85stuz">
+		<state name="OW Controls">
+			<NormalControlGroup name="Abilities">
+				<TactileInputControl name="Ability 1" id="28" />
+				<TactileInputControl name="Ability 2" id="29" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Ultimate">
+				<TactileInputControl name="Ultimate" id="30" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Movement">
+				<TactileInputControl name="Move Forward" id="31" />
+				<TactileInputControl name="Move Backward" id="32" />
+				<TactileInputControl name="Strafe Left" id="33" />
+				<TactileInputControl name="Strafe Right" id="34" />
+				<JoystickControl name="Move Camera" id="35" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Actions">
+				<TactileInputControl name="Shoot" id="36" />
+				<TactileInputControl name="Alt Fire" id="37" />
+				<TactileInputControl name="Next Weapon" id="38" />
+				<TactileInputControl name="Previous Weapon" id="39" />
+				<TactileInputControl name="Crouch" id="40" />
+				<TactileInputControl name="Reload" id="41" />
+				<TactileInputControl name="Melee" id="42" />
+				<TactileInputControl name="Jump" id="43" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Social">
+				<TactileInputControl name="Acknowledge" id="44" />
+				<TactileInputControl name="Emote" id="45" />
+				<TactileInputControl name="Group Up" id="46" />
+				<TactileInputControl name="Hello" id="47" />
+				<TactileInputControl name="Need Healing" id="48" />
+				<TactileInputControl name="Thanks" id="49" />
+				<TactileInputControl name="Ultimate Status" id="50" />
+				<TactileInputControl name="Voice Line" id="51" />
+				<TactileInputControl name="Spray" id="52" />
+			</NormalControlGroup>
+		</state>
+		<state name="OW Hero Select">
+			<NormalControlGroup name="Offense">
+				<TactilePointControl name="Genji" id="0" />
+				<TactilePointControl name="McCree" id="1" />
+				<TactilePointControl name="Pharah" id="2" />
+				<TactilePointControl name="Reaper" id="3" />
+				<TactilePointControl name="Soldier: 76" id="4" />
+				<TactilePointControl name="Sombra" id="5" />
+				<TactilePointControl name="Tracer" id="6" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Defense">
+				<TactilePointControl name="Bastion" id="7" />
+				<TactilePointControl name="Hanzo" id="8" />
+				<TactilePointControl name="Junkrat" id="9" />
+				<TactilePointControl name="Mei" id="10" />
+				<TactilePointControl name="Torbjörn" id="11" />
+				<TactilePointControl name="Widowmaker" id="12" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Tank">
+				<TactilePointControl name="D.Va" id="13" />
+				<TactilePointControl name="Reinhardt" id="14" />
+				<TactilePointControl name="Roadhog" id="15" />
+				<TactilePointControl name="Winston" id="16" />
+				<TactilePointControl name="Zarya" id="17" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Support">
+				<TactilePointControl name="Ana" id="18" />
+				<TactilePointControl name="Lúcio" id="19" />
+				<TactilePointControl name="Mercy" id="20" />
+				<TactilePointControl name="Symmetra" id="21" />
+				<TactilePointControl name="Zenyatta" id="22" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Categories">
+				<CustomControl name="Offense" id="23" />
+				<CustomControl name="Defense" id="24" />
+				<CustomControl name="Tank" id="25" />
+				<CustomControl name="Support" id="26" />
+				<CustomControl name="Random" id="27" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Hearthstone Deck Builder" gameId="12020"
+		shareCode="jvywypdw">
+		<state name="HS Class Select">
+			<VoteControlGroup name="Classes">
+				<VotePointControl name="Warrior" id="12" />
+				<VotePointControl name="Shaman" id="13" />
+				<VotePointControl name="Rogue" id="14" />
+				<VotePointControl name="Paladin" id="15" />
+				<VotePointControl name="Hunter" id="16" />
+				<VotePointControl name="Druid" id="17" />
+				<VotePointControl name="Warlock" id="18" />
+				<VotePointControl name="Mage" id="19" />
+				<VotePointControl name="Priest" id="20" />
+			</VoteControlGroup>
+		</state>
+		<state name="HS Collection">
+			<VoteControlGroup name="Collection">
+				<VotePointControl name="Card 1" id="0" />
+				<VotePointControl name="Card 2" id="1" />
+				<VotePointControl name="Card 3" id="2" />
+				<VotePointControl name="Card 4" id="3" />
+				<VotePointControl name="Card 5" id="4" />
+				<VotePointControl name="Card 6" id="5" />
+				<VotePointControl name="Card 7" id="6" />
+				<VotePointControl name="Card 8" id="7" />
+				<VotePointControl name="Previous Page" id="8" />
+				<VotePointControl name="Next Page" id="9" />
+				<VotePointControl name="Class Cards" id="10" />
+				<VotePointControl name="Neutral Cards" id="11" />
+			</VoteControlGroup>
+		</state>
+		<state name="HS Arena">
+			<VoteControlGroup name="Cards">
+				<VotePointControl name="Card 1" id="0" />
+				<VotePointControl name="Card 2" id="1" />
+				<VotePointControl name="Card 3" id="2" />
+			</VoteControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Rocket League Control Board" gameId="13048"
+		shareCode="l5ouu24w">
+		<state name="RL Controls">
+			<NormalControlGroup name="Camera">
+				<JoystickControl name="Swivel Camera" id="0" />
+				<TactileInputControl name="Change Camera" id="8" />
+				<TactileInputControl name="Rear View" id="9" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Movement">
+				<TactileInputControl name="Accelerate" id="1" />
+				<TactileInputControl name="Reverse" id="2" />
+				<TactileInputControl name="Turn Left" id="3" />
+				<TactileInputControl name="Turn Right" id="4" />
+				<TactileInputControl name="Jump" id="5" />
+				<TactileInputControl name="Boost" id="6" />
+				<TactileInputControl name="Powerslide" id="7" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Quick Chat">
+				<TactileInputControl name="Quick Chat 1" id="11" />
+				<TactileInputControl name="Quick Chat 2" id="12" />
+				<TactileInputControl name="Quick Chat 3" id="13" />
+				<TactileInputControl name="Quick Chat 4" id="14" />
+			</NormalControlGroup>
+			<NormalControlGroup name="Rumble Item">
+				<TactileInputControl name="Use Item" id="10" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Battlerite Control Board" gameId="14090"
+		shareCode="6bfwtbgs">
+		<state name="Btlrt Controls">
+			<NormalControlGroup name="All">
+				<TactileInputControl name="Up" id="0" />
+				<TactileInputControl name="Down" id="1" />
+				<TactileInputControl name="Left" id="2" />
+				<TactileInputControl name="Right" id="3" />
+				<TactileInputControl name="Ability 1" id="5" />
+				<TactileInputControl name="Ability 2" id="6" />
+				<TactileInputControl name="Ability 3" id="7" />
+				<TactileInputControl name="Ability 4" id="8" />
+				<TactileInputControl name="Ability 5" id="9" />
+				<TactileInputControl name="Ability 6" id="10" />
+				<TactileInputControl name="Ability 7" id="11" />
+				<TactileInputControl name="EX Ability 1" id="12" />
+				<TactileInputControl name="EX Ability 2" id="13" />
+				<TactileInputControl name="Mount" id="14" />
+				<TactileInputControl name="Interrupt" id="15" />
+				<JoystickControl name="Swivel Camera" id="4" />
+			</NormalControlGroup>
+		</state>
+		<state name="Btlrt Champ Select">
+			<NormalControlGroup name="Heroes">
+				<TactilePointControl name="Ashka" id="16" />
+				<TactilePointControl name="Bakko" id="17" />
+				<TactilePointControl name="Croak" id="18" />
+				<TactilePointControl name="Ezmo" id="19" />
+				<TactilePointControl name="Freya" id="20" />
+				<TactilePointControl name="Iva" id="21" />
+				<TactilePointControl name="Jade" id="22" />
+				<TactilePointControl name="Jumong" id="23" />
+				<TactilePointControl name="Lucie" id="24" />
+				<TactilePointControl name="Oldur" id="25" />
+				<TactilePointControl name="Pearl" id="26" />
+				<TactilePointControl name="Pestilus" id="27" />
+				<TactilePointControl name="Poloma" id="28" />
+				<TactilePointControl name="Rook" id="29" />
+				<TactilePointControl name="Ruh Kaan" id="30" />
+				<TactilePointControl name="Shifu" id="31" />
+				<TactilePointControl name="Sirius" id="32" />
+				<TactilePointControl name="Taya" id="33" />
+				<TactilePointControl name="Varesh" id="34" />
+				<CustomControl name="Random" id="35" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Heroes of the Storm Control Board"
+		gameId="14121" shareCode="oyyif22g">
+		<state name="HOTS Hero Select">
+			<NormalControlGroup name="Heroes">
+				<TactilePointControl name="Random" id="0" />
+				<TactilePointControl name="Abathur" id="1" />
+				<TactilePointControl name="Alarak" id="56" />
+				<TactilePointControl name="Anub'arak" id="30" />
+				<TactilePointControl name="Artanis" id="43" />
+				<TactilePointControl name="Arthas" id="2" />
+				<TactilePointControl name="Auriel" id="55" />
+				<TactilePointControl name="Azmodan" id="31" />
+				<TactilePointControl name="Brightwing" id="24" />
+				<TactilePointControl name="Chen" id="29" />
+				<TactilePointControl name="Cho" id="45" />
+				<TactilePointControl name="Gall" id="46" />
+				<TactilePointControl name="Chromie" id="52" />
+				<TactilePointControl name="Dehaka" id="50" />
+				<TactilePointControl name="Diablo" id="3" />
+				<TactilePointControl name="E.T.C." id="4" />
+				<TactilePointControl name="Falstad" id="5" />
+				<TactilePointControl name="Gazlowe" id="6" />
+				<TactilePointControl name="Greymane" id="47" />
+				<TactilePointControl name="Gul'dan" id="54" />
+				<TactilePointControl name="Illidan" id="7" />
+				<TactilePointControl name="Jaina" id="32" />
+				<TactilePointControl name="Johanna" id="37" />
+				<TactilePointControl name="Kael'thas" id="36" />
+				<TactilePointControl name="Kerrigan" id="8" />
+				<TactilePointControl name="Kharazim" id="40" />
+				<TactilePointControl name="Leoric" id="39" />
+				<TactilePointControl name="Li Li" id="25" />
+				<TactilePointControl name="Li-Ming" id="48" />
+				<TactilePointControl name="Lt. Morales" id="42" />
+				<TactilePointControl name="Lunara" id="44" />
+				<TactilePointControl name="Malfurion" id="9" />
+				<TactilePointControl name="Medivh" id="53" />
+				<TactilePointControl name="Muradin" id="10" />
+				<TactilePointControl name="Murky" id="26" />
+				<TactilePointControl name="Nazeebo" id="11" />
+				<TactilePointControl name="Nova" id="12" />
+				<TactilePointControl name="Ragnaros" id="60" />
+				<TactilePointControl name="Raynor" id="13" />
+				<TactilePointControl name="Rehgar" id="28" />
+				<TactilePointControl name="Rexxar" id="41" />
+				<TactilePointControl name="Samuro" id="58" />
+				<TactilePointControl name="Sgt. Hammer" id="14" />
+				<TactilePointControl name="Sonya" id="15" />
+				<TactilePointControl name="Stitches" id="16" />
+				<TactilePointControl name="Sylvanas" id="35" />
+				<TactilePointControl name="Tassadar" id="17" />
+				<TactilePointControl name="The Butcher" id="38" />
+				<TactilePointControl name="The Lost Vikings" id="34" />
+				<TactilePointControl name="Thrall" id="33" />
+				<TactilePointControl name="Tracer" id="51" />
+				<TactilePointControl name="Tychus" id="23" />
+				<TactilePointControl name="Tyrael" id="18" />
+				<TactilePointControl name="Tyrande" id="19" />
+				<TactilePointControl name="Uther" id="20" />
+				<TactilePointControl name="Valla" id="21" />
+				<TactilePointControl name="Varian" id="59" />
+				<TactilePointControl name="Xul" id="49" />
+				<TactilePointControl name="Zagara" id="27" />
+				<TactilePointControl name="Zarya" id="57" />
+				<TactilePointControl name="Zeratul" id="22" />
+				<TactilePointControl name="Zul'jin" id="61" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Dead By Daylight Control Board"
+		gameId="15486" shareCode="0d8d40w5">
+		<state name="DBD Killer Select">
+			<NormalControlGroup name="Killers">
+				<TactilePointControl name="Trapper" id="0" />
+				<TactilePointControl name="Wraith" id="1" />
+				<TactilePointControl name="Hillbilly" id="2" />
+				<TactilePointControl name="Nurse" id="3" />
+				<TactilePointControl name="Shape" id="4" />
+				<TactilePointControl name="Hag" id="5" />
+			</NormalControlGroup>
+		</state>
+		<state name="DBD Survivor Select">
+			<NormalControlGroup name="Survivors">
+				<TactilePointControl name="Dwight Fairfield" id="6" />
+				<TactilePointControl name="Meg Thomas" id="7" />
+				<TactilePointControl name="Jake Park" id="8" />
+				<TactilePointControl name="Claudette Morel" id="9" />
+				<TactilePointControl name="Nea Karlsson" id="10" />
+				<TactilePointControl name="Laurie Strode" id="11" />
+				<TactilePointControl name="Ace Visconti" id="12" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<ControlBoard name="Guacamelee" gameId="14388" shareCode="ccrvitxt">
+		<state name="Guacamelee">
+			<NormalControlGroup name="Controls">
+				<TactileInputControl name="Up" id="0" />
+				<TactileInputControl name="Down" id="1" />
+				<TactileInputControl name="Left" id="2" />
+				<TactileInputControl name="Right" id="3" />
+				<TactileInputControl name="Jump" id="4" />
+				<TactileInputControl name="Attack" id="5" />
+				<TactileInputControl name="Special" id="6" />
+				<TactileInputControl name="Grab" id="7" />
+				<TactileInputControl name="Dodge" id="8" />
+				<TactileInputControl name="Swap Dimensions" id="9" />
+				<TactileInputControl name="Pollo Power" id="10" />
+				<TactileInputControl name="Jump Alternate" id="11" />
+				<TactileInputControl name="Bubble" id="12" />
+				<TactileInputControl name="Map" id="13" />
+				<TactileInputControl name="Esc" id="14" />
+			</NormalControlGroup>
+		</state>
+	</ControlBoard>
+	<!-- <ControlBoard name="H1Z1 Board" gameId="" shareCode=""> <state name="H1Z1"> 
+		<NormalControlGroup name="Movement"> <TactileInputControl name="Forward" 
+		id="2" /> <TactileInputControl name="Backward" id="4" /> <TactileInputControl 
+		name="Left" id="3" /> <TactileInputControl name="Right" id="5" /> <JoystickControl 
+		name="Move Camera" id="0" /> </NormalControlGroup> <NormalControlGroup name="Actions"> 
+		<TactileInputControl name="Jump" id="6" /> <TactileInputControl name="Shoot" 
+		id="7" /> <TactileInputControl name="Aim" id="8" /> <TactileInputControl 
+		name="Bandage" id="9" /> <TactileInputControl name="First Aid Kit" id="10" 
+		/> <TactileInputControl name="Crouch" id="11" /> <TactileInputControl name="Prone" 
+		id="12" /> <TactileInputControl name="Reload" id="13" /> </NormalControlGroup> 
+		</state> </ControlBoard> -->
+</root>
