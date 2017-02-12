@@ -624,30 +624,6 @@
 			</NormalControlGroup>
 		</state>
 	</ControlBoard>
-	<ControlBoard name="Resident Evil 0" gameId="18022" shareCode="9u9s0u3s">
-		<state name="RE 0">
-			<NormalControlGroup name="Player Controls">
-				<TactileInputControl name="Up" id="0" />
-				<TactileInputControl name="Down" id="1" />
-				<TactileInputControl name="Left" id="2" />
-				<TactileInputControl name="Right" id="3" />
-				<TactileInputControl name="SPACE" id="4" />
-				<TactileInputControl name="Confirm/Action" id="5" />
-				<TactileInputControl name="Solo/Team" id="10" />
-				<TactileInputControl name="Switch Characters" id="11" />
-				<TactileInputControl name="SHIFT" id="12" />
-				<TactileInputControl name="Map" id="13" />
-				<TactileInputControl name="Status" id="14" />
-				<TactileInputControl name="Reload" id="15" />
-			</NormalControlGroup>
-			<NormalControlGroup name="Partner Controls">
-				<TactileInputControl name="Up" id="6" />
-				<TactileInputControl name="Down" id="7" />
-				<TactileInputControl name="Left" id="8" />
-				<TactileInputControl name="Right" id="9" />
-			</NormalControlGroup>
-		</state>
-	</ControlBoard>
 	<!-- <ControlBoard name="H1Z1 Board" gameId="" shareCode=""> <state name="H1Z1"> 
 		<NormalControlGroup name="Movement"> <TactileInputControl name="Forward" 
 		id="2" /> <TactileInputControl name="Backward" id="4" /> <TactileInputControl 
